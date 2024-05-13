@@ -2,7 +2,7 @@
 
 #include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
-LiquidCrystal_I2C lcd(0x3F,16,2);  //Change the HEX address
+LiquidCrystal_I2C lcd(0x3F,16,2);  //HEX address
 #include <Servo.h> 
 
 Servo myservo1;
@@ -10,7 +10,7 @@ Servo myservo1;
 int IR1 = 2;
 int IR2 = 4;
 
-int Slot = 4;           //Enter Total number of parking Slots
+int Slot = 4;           //Total number of parking Slots
 
 int flag1 = 0;
 int flag2 = 0;
